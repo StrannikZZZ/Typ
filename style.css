@@ -37,7 +37,7 @@ body {
   text-align: center;
   width: 1400px;
   margin: auto;
-  margin-top: 100px;
+  margin-top: 60px;
   font-size: 20px;
 }
 .footer {
@@ -60,7 +60,23 @@ body {
   text-decoration: none;
   color: blue;
   margin-top: 5px;
+  margin-left: 5px;
 }
 .fa:hover {
   color: red;
+}
+
+div.img1{
+display: inline-block;
+margin-right: 130px;
+margin-top: 50px;
+}
+div.img2{
+display: inline-block;
+margin-top: 50px;
+}
+div.img3{
+display: inline-block;
+margin-left: 130px;
+margin-top: 50px;
 }

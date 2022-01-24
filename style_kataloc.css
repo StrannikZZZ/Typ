@@ -34,6 +34,7 @@ body {
 }
 .content {
   flex-grow: 1;
+
 }
 .footer {
   display: flex;
@@ -63,33 +64,49 @@ body {
 
 
 .katalog {
-  display: inline-flex;
+  text-align: center;
 }
 .product1 {  
-  margin: 10px;
+  margin: 40px;
+  margin-top: 50px;
+  margin-bottom: 50px;
   padding: 10px;
   text-align: center;
-  width: 100%;
+  width: 40%;
   background-color: #00BFFF;
+  border: 5px solid black;
+  display: inline-block;
 }
 .product2 {
-  margin: 10px;
+  margin: 40px;
+  margin-top: 50px;
+  margin-bottom: 50px;
   padding: 10px;
   text-align: center;
-  width: 100%;
+  width: 40%;
   background-color: #00BFFF;
+  border: 5px solid black;
+  display: inline-block;
 }
 .product3 {
-  margin: 10px;
+  margin: 40px;
+  margin-top: 50px;
+  margin-bottom: 50px;
   padding: 10px;
   text-align: center;
-  width: 100%;
+  width: 40%;
   background-color: #00BFFF;
+  border: 5px solid black;
+  display: inline-block;
 }
 .product4 {
-  margin: 10px;
+  margin: 40px;
+  margin-top: 50px;
+  margin-bottom: 50px;
   padding: 10px;
   text-align: center;
-  width: 100%;
+  width: 40%;
   background-color: #00BFFF;
+  border: 5px solid black;
+  display: inline-block;
 }
