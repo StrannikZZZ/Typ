@@ -35,7 +35,7 @@ body {
 .content {
   flex-grow: 1;
   text-align: center;
-  width: 1400px;
+  width: 100%;
   margin: auto;
   margin-top: 60px;
   font-size: 20px;
@@ -68,15 +68,13 @@ body {
 
 div.img1{
 display: inline-block;
-margin-right: 130px;
-margin-top: 50px;
+margin: auto;
 }
 div.img2{
 display: inline-block;
-margin-top: 50px;
+margin: auto;
 }
 div.img3{
 display: inline-block;
-margin-left: 130px;
-margin-top: 50px;
+margin: auto;
 }
