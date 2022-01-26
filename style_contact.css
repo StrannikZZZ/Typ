@@ -32,6 +32,9 @@ body {
   display: flex;
   flex-direction: column;
 }
+.text {
+  flex-grow: 1;
+}
 .content {
   flex-grow: 1;
   display: flex;
