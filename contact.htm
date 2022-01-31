@@ -46,7 +46,7 @@
     </div>
     <div class="sms">
       <h2>Отправить сообщение:</h2>
-      <form action="send.php" method="post">
+      <form>
         <p>
           Ваше имя и фамилия:<br />
           <textarea name="name" rows="1" cols="25" maxlength="15" required></textarea>
@@ -74,6 +74,11 @@
         </p>
       </form>
     </div>
+      <form action="send.php" method="post">
+<input type="text" name="fio" placeholder="Укажите ФИО" required>
+<input type="text" name="email" placeholder="Укажите e-mail" required>
+<input type="submit" value="Отправить">
+</form>
     </div>
 
     <div class="footer">
