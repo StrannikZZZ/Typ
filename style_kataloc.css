@@ -70,8 +70,8 @@ body {
 }
 .product1 { 
   border-radius: 120px; 
-  border: 8px solid black;
-  background-color: #87CEFA;
+  border: 8px solid #00BFFF;
+  background-color: #B0E0E6;
   width: 50%;
   height: auto;
   text-align: center;
@@ -82,8 +82,8 @@ body {
 }
 .product2 {
   border-radius: 120px;
-  border: 8px solid black;
-  background-color: #87CEFA;
+  border: 8px solid #00BFFF;
+  background-color: #B0E0E6;
   width: 50%;
   height: auto;
   text-align: center;
@@ -94,8 +94,8 @@ body {
 }
 .product3 {
   border-radius: 120px;
-  border: 8px solid black;
-  background-color: #87CEFA;
+  border: 8px solid #00BFFF;
+  background-color: #B0E0E6;
   width: 50%;
   height: auto;
   text-align: center;
@@ -106,8 +106,8 @@ body {
 }
 .product4 {
   border-radius: 120px;
-  border: 8px solid black;
-  background-color: #87CEFA;
+  border: 8px solid #00BFFF;
+  background-color: #B0E0E6;
   width: 50%;
   height: auto;
   text-align: center;
@@ -116,4 +116,3 @@ body {
   border-spacing: 1px 15px;
   margin-bottom: 60px;
 }
-
