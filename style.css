@@ -4,6 +4,10 @@
 .img{
   margin: auto;
 }
+.qr1:hover{
+  height: 300px;
+  width: 300px;
+}
 li {
   display: inline-block;
   border: 1px solid black;
