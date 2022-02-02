@@ -8,14 +8,15 @@
     />
 <script src="https://bot.jaicp.com/chatwidget/VoVtSclC%3A88944f857f3bd95c2054eaefac505a2aa7c402db/justwidget.js" async></script>
 
-
   </head>
   <body>
 
     <div class="div1">
 
       <div class="img">
+        <a title="На главную" href="index.htm">
         <img src="img/logo.gif" height="170px" width="220px" />
+      </a>
       </div>
 
       <div class="menu">
@@ -28,9 +29,18 @@
         </ul>
       </div>
       <div class="qr">
-        <a title="На главную" href="index.htm">
-      <img class="qr1" src="img/qr-code.png" height="150px" width="150px" />
-    </a>
+       
+      <img title="Нажмите чтобы увеличить" src="img/qr-code.png" height="150px" width="150px" onclick="changeSizeImage(this)"/>
+    <script language = "JavaScript">
+var bigsize = "300"; //Размер большой картинки
+var smallsize = "150"; //Размер маленькой картинки
+function changeSizeImage(im) {
+  if(im.height == bigsize) im.height = smallsize;
+  else im.height = bigsize;
+  if(im.width == bigsize) im.width = smallsize;
+  else im.width = bigsize;
+}
+</script>
       </div>
     </div>
   
