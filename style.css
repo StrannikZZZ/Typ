@@ -10,12 +10,14 @@ li {
   border-radius: 26px;
   padding: 10px;
   background-color: white;
+  margin-top: 5px;
 }
 .men {
   text-decoration: none;
   color: #00BFFF;
   font-weight: 1000;
   font-size: 20px;
+
 }
 .div1 {
   display: flex;
